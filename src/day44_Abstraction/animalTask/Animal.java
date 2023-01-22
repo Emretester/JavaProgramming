@@ -84,6 +84,8 @@ public abstract class Animal {
 
     public abstract void eat();
 
+
+    @Override
     public String toString() {
         return getClass().getSimpleName() + "{" +
                 "name='" + name + '\'' +
@@ -110,3 +112,4 @@ Animal Task:
 				drink() ==> all the animals drink water
 				toString() ==> to display the full info of the animal
  */
+
