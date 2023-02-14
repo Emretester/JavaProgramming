@@ -1,6 +1,6 @@
 package day52_Map_FunctionalInterface;
 
-@NestedMap
+@FunctionalInterface
 public interface MyFirstFunctionalInterface {
 
     void apply(int n);
